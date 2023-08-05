@@ -226,31 +226,11 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 1000px) {
   .six .hat {
     left: 40%;
   }
 }
-
-/* Адаптивные стили для мобильных устройств */
-/* Адаптивные стили для мобильных устройств */
-@media (max-width: 600px) {
-  .profile-picture {
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* Этот стиль предотвращает сжатие фотографии */
-  }
-}
-
-/* Стили для остальных устройств (планшеты, десктопы) */
-@media (min-width: 601px) {
-  .profile-picture {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /* Этот стиль предотвращает сжатие фотографии */
-  }
-}
-
 
 @media screen and (max-height: 800px) {
   .six .hat {
