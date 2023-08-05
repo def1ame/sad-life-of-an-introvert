@@ -232,6 +232,27 @@ body {
   }
 }
 
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Этот стиль предотвращает сжатие фотографии */
+  }
+}
+
+/* Стили для остальных устройств (планшеты, десктопы) */
+@media (min-width: 601px) {
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* Этот стиль предотвращает сжатие фотографии */
+  }
+}
+
+
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
