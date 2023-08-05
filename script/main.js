@@ -91,8 +91,7 @@ const animationTimeline = () => {
         scale: 0.2,
         opacity: 0,
     })
-
-.from(".fake-btn", 0.3, {
+    .from(".fake-btn", 0.3, {
         scale: 0.2,
         opacity: 0,
     })
@@ -156,7 +155,8 @@ const animationTimeline = () => {
             opacity: 0,
         },
         "+=2"
-.staggerFrom(
+    )
+    .staggerFrom(
         ".idea-6 span",
         0.8, {
             scale: 3,
